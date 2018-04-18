@@ -7,7 +7,7 @@ public class Rotate_Array_easy {
 		 */
 		
 		Rotate_Array_easy c = new Rotate_Array_easy();
-		int arr[] = {-1};
+		int arr[] = {1,2,3,4,5,6,7};
 		c.rotate(arr, 2);
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
