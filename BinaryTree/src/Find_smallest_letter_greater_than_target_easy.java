@@ -24,7 +24,7 @@ public class Find_smallest_letter_greater_than_target_easy {
     		int left = 0;
     		int right = letters.length - 1;
     		while (left < right) {
-    			int mid = left + (right - 1) / 2;
+    			int mid = left + (right - left) / 2;
     			if (letters[mid] <= target) {
     				left = mid + 1;
     			} else{
