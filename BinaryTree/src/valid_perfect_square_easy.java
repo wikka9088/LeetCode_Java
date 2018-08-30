@@ -79,7 +79,6 @@ public class valid_perfect_square_easy {
 			....
 			1+3+...+(2n-1) = (2n-1 + 1)n/2 = n*n
 			
-			
 	    	 */
     }
 
