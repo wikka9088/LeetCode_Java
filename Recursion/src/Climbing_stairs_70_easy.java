@@ -11,6 +11,16 @@ public class Climbing_stairs_70_easy {
 
 	}
 	
+	public int recursionMethod(int n) 
+	{
+		//反向思维： 假设n = 5; 即f(5) = f(4) + f(3) ; f(4) = f(3) + f(2) ...
+		if (n == 1 || n == 2) {
+			return n;
+		}
+		
+		return recursionMethod(n - 1) + recursionMethod(n - 2);
+	}
+	
     public int climbStairs(int n) {
         return climbing(0, n);
     }
